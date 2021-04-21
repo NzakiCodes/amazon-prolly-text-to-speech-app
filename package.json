@@ -1,0 +1,35 @@
+{
+  "name": "play_ht-text-to-speech-app",
+  "version": "0.0.1",
+  "description": "Text to Speech app using Amazon Polly API",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "client:start":"cd client && npm build && npm start",
+    "start":"npm run client:start && node server.js"
+  },
+  "keywords": [
+    "TTS",
+    "Amazon",
+    "Polly",
+    "Node.js"
+  ],
+  "author": "Ekikere-abasi Ekere",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.889.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.6.3",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
+  }
+}

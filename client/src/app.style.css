@@ -1,0 +1,81 @@
+body {
+  background: #f4f0eb;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  color: #525f7f;
+}
+
+.Header h1 {
+  font-size: 52px !important;
+  font-weight: bold;
+  color: #039961;
+}
+
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem !important;
+
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label {
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+option{
+  padding: 123px;
+ 
+
+}
+:disabled{
+  background-color: #039961;
+  color: #ffffff;
+}
+.Label.Text {
+  margin-top: 12px;
+}
+
+.SelectBox {
+  width: 200px;
+  padding: 10px 5px;
+  border-radius: 20px;
+  border: 1px solid #525f7f88;
+
+} 
+
+textarea.Text {
+  width: 500px;
+  resize: none;
+  font-family: inherit;
+  border-radius: 20px;
+  border: 1px solid #525f7f88;
+  padding: 10px;
+}
+
+.Generate.Button {
+  margin: 20px 0;
+  width: 30%;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #039961;
+  border: none;
+  color: #ffff;
+  border-radius: 30px;
+  cursor: pointer;
+
+  
+}
+.Generate.Button:hover {
+    background: #039962b9;
+  }
